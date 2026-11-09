@@ -16,6 +16,17 @@
 
 *Tempora* is Latin for "times". Create a countdown for anything — a vacation, a birthday, a launch — and pin it to your desktop as a widget.
 
+## Download
+
+**[⬇ Download the latest Tempora.dmg](https://github.com/yunusemre-cagan/Tempora/releases/latest)** (macOS 26 or later, Apple Silicon and Intel)
+
+1. Open the downloaded `Tempora-….dmg`.
+2. Drag **Tempora** onto the **Applications** folder.
+3. Open Tempora from Applications and create your first countdown.
+4. To put one on your desktop: right-click the desktop → **Edit Widgets…** → search for *Tempora* and drag a widget out.
+
+The app is signed and notarized by Apple, so macOS opens it without warnings.
+
 ## Features
 
 - **Desktop widgets** (WidgetKit): Small, Medium, Large and Extra Large, in four styles — *Poster*, *Minimal*, *Ring* and *Card* — plus an *Upcoming* list widget. Pick which countdown a widget shows from its context menu.

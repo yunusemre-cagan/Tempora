@@ -16,6 +16,17 @@
 
 *Tempora*, Latince'de "zamanlar" demek. Tatil, doğum günü, lansman… her şey için bir geri sayım oluşturun ve masaüstünüze widget olarak sabitleyin.
 
+## İndir
+
+**[⬇ Tempora.dmg'nin son sürümünü indirin](https://github.com/yunusemre-cagan/Tempora/releases/latest)** (macOS 26 veya üstü, Apple Silicon ve Intel)
+
+1. İndirdiğiniz `Tempora-….dmg` dosyasını açın.
+2. **Tempora**'yı **Applications (Uygulamalar)** klasörüne sürükleyin.
+3. Uygulamalar'dan Tempora'yı açıp ilk geri sayımınızı oluşturun.
+4. Masaüstüne koymak için: masaüstüne sağ tıklayın → **Widget'ları Düzenle…** → *Tempora*'yı arayıp bir widget'ı sürükleyin.
+
+Uygulama Apple tarafından imzalanmış ve noter onayından geçmiştir, macOS uyarı vermeden açar.
+
 ## Özellikler
 
 - **Masaüstü widget'ları** (WidgetKit): Küçük, Orta, Büyük ve Ekstra Büyük boyutlar; *Poster*, *Minimal*, *Halka* ve *Kart* stilleri ve bir *Yaklaşanlar* liste widget'ı. Widget'ın hangi geri sayımı göstereceğini sağ tık menüsünden seçersiniz.
