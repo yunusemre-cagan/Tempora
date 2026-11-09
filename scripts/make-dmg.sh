@@ -29,7 +29,9 @@ fi
 echo "▸ Building $APP_NAME (Release)…"
 SIGN_ARGS=()
 if [[ -n "${SIGN_IDENTITY:-}" ]]; then
-  SIGN_ARGS=(CODE_SIGN_STYLE=Manual "CODE_SIGN_IDENTITY=$SIGN_IDENTITY" "OTHER_CODE_SIGN_FLAGS=--timestamp" ENABLE_HARDENED_RUNTIME=YES)
+  # CODE_SIGN_INJECT_BASE_ENTITLEMENTS=NO keeps Xcode from adding the debugging entitlement
+  # (get-task-allow), which Apple's notary service rejects.
+  SIGN_ARGS=(CODE_SIGN_STYLE=Manual "CODE_SIGN_IDENTITY=$SIGN_IDENTITY" "OTHER_CODE_SIGN_FLAGS=--timestamp" ENABLE_HARDENED_RUNTIME=YES CODE_SIGN_INJECT_BASE_ENTITLEMENTS=NO)
 fi
 rm -rf "$BUILD_DIR"
 xcodebuild -project Tempora.xcodeproj -scheme Tempora -configuration Release \
@@ -40,6 +42,9 @@ VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$APP/C
 DMG="$DIST_DIR/$APP_NAME-$VERSION.dmg"
 mkdir -p "$DIST_DIR"
 codesign --verify --deep --strict "$APP"
+if [[ -n "${SIGN_IDENTITY:-}" ]] && codesign -d --entitlements - --xml "$APP" 2>/dev/null | grep -q get-task-allow; then
+  echo "✗ The app still carries the get-task-allow entitlement; notarization would fail." >&2; exit 1
+fi
 echo "▸ Architectures: $(lipo -archs "$APP/Contents/MacOS/$APP_NAME")"
 echo "▸ Signed with: $(codesign -dvv "$APP" 2>&1 | grep -m1 'Authority=' | cut -d= -f2)"
 
