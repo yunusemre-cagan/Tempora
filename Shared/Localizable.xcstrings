@@ -1,0 +1,1640 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "": {},
+    "%@": {},
+    "%@ Copy": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Kopya"
+          }
+        }
+      }
+    },
+    "%@ before": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ önce"
+          }
+        }
+      }
+    },
+    "%@ to go · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ to go · %2$@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ kaldı · %2$@"
+          }
+        }
+      }
+    },
+    "%lld %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld %2$@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "%lld%% elapsed": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%%%lld geçti"
+          }
+        }
+      }
+    },
+    "A single countdown, down to the second.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saniyesine kadar tek bir geri sayım."
+          }
+        }
+      }
+    },
+    "Accent": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vurgu rengi"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekle"
+          }
+        }
+      }
+    },
+    "Add Notification": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildirim Ekle"
+          }
+        }
+      }
+    },
+    "Add a note, shown on larger widgets": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir not ekleyin (büyük widget’larda görünür)"
+          }
+        }
+      }
+    },
+    "All Day": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm gün"
+          }
+        }
+      }
+    },
+    "Allow Notifications": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildirimlere İzin Ver"
+          }
+        }
+      }
+    },
+    "Allowed": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İzin verildi"
+          }
+        }
+      }
+    },
+    "Anniversary": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yıldönümü"
+          }
+        }
+      }
+    },
+    "Appearance": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görünüm"
+          }
+        }
+      }
+    },
+    "Archive": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arşivle"
+          }
+        }
+      }
+    },
+    "Archived": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arşiv"
+          }
+        }
+      }
+    },
+    "At time of event": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tam zamanında"
+          }
+        }
+      }
+    },
+    "Automatic": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otomatik"
+          }
+        }
+      }
+    },
+    "Background": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arkaplan"
+          }
+        }
+      }
+    },
+    "Birthday": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doğum Günü"
+          }
+        }
+      }
+    },
+    "Blank": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boş"
+          }
+        }
+      }
+    },
+    "Blur": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bulanıklık"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç"
+          }
+        }
+      }
+    },
+    "Card": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kart"
+          }
+        }
+      }
+    },
+    "Choose Countdown": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri Sayım Seç"
+          }
+        }
+      }
+    },
+    "Choose Image…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görsel Seç…"
+          }
+        }
+      }
+    },
+    "Color": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renk"
+          }
+        }
+      }
+    },
+    "Completed": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamamlandı"
+          }
+        }
+      }
+    },
+    "Concert": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konser"
+          }
+        }
+      }
+    },
+    "Couldn’t read that image.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu görsel okunamadı."
+          }
+        }
+      }
+    },
+    "Count Down": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri Say"
+          }
+        }
+      }
+    },
+    "Count Up": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İleri Say"
+          }
+        }
+      }
+    },
+    "Count Ups": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İleri Sayımlar"
+          }
+        }
+      }
+    },
+    "Count up": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İleri sayım"
+          }
+        }
+      }
+    },
+    "Countdown": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri Sayım"
+          }
+        }
+      }
+    },
+    "Counting down to the next occurrence": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir sonraki tarihe geri sayılıyor"
+          }
+        }
+      }
+    },
+    "Counting down · %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri sayım · %@"
+          }
+        }
+      }
+    },
+    "Counting up · %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İleri sayım · %@"
+          }
+        }
+      }
+    },
+    "Create": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oluştur"
+          }
+        }
+      }
+    },
+    "Create a countdown in the app": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamada bir geri sayım oluşturun"
+          }
+        }
+      }
+    },
+    "Create your first countdown, then add it to your desktop as a widget.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk geri sayımınızı oluşturun, ardından masaüstünüze widget olarak ekleyin."
+          }
+        }
+      }
+    },
+    "Custom…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Özel…"
+          }
+        }
+      }
+    },
+    "DAY": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GÜN"
+          }
+        }
+      }
+    },
+    "DAYS": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GÜN"
+          }
+        }
+      }
+    },
+    "Daily": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her gün"
+          }
+        }
+      }
+    },
+    "Darken": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karartma"
+          }
+        }
+      }
+    },
+    "Database": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veritabanı"
+          }
+        }
+      }
+    },
+    "Date": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarih"
+          }
+        }
+      }
+    },
+    "Date & Time": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarih ve Saat"
+          }
+        }
+      }
+    },
+    "Deadline": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son Teslim"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
+          }
+        }
+      }
+    },
+    "Delete “%@”?": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” silinsin mi?"
+          }
+        }
+      }
+    },
+    "Delete…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil…"
+          }
+        }
+      }
+    },
+    "Description": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açıklama"
+          }
+        }
+      }
+    },
+    "Dismiss": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapat"
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çoğalt"
+          }
+        }
+      }
+    },
+    "Edit…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenle…"
+          }
+        }
+      }
+    },
+    "Emoji": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emoji"
+          }
+        }
+      }
+    },
+    "Emoji Picker": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emoji Paneli"
+          }
+        }
+      }
+    },
+    "End Date": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitiş Tarihi"
+          }
+        }
+      }
+    },
+    "End Repeat": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekrarı Bitir"
+          }
+        }
+      }
+    },
+    "Ended %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitti: %@"
+          }
+        }
+      }
+    },
+    "Every %lld days": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her %lld günde bir"
+          }
+        }
+      }
+    },
+    "Every %lld months": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her %lld ayda bir"
+          }
+        }
+      }
+    },
+    "Every %lld weeks": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her %lld haftada bir"
+          }
+        }
+      }
+    },
+    "Every %lld years": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her %lld yılda bir"
+          }
+        }
+      }
+    },
+    "Every day": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her gün"
+          }
+        }
+      }
+    },
+    "Every month": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her ay"
+          }
+        }
+      }
+    },
+    "Every week": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her hafta"
+          }
+        }
+      }
+    },
+    "Every year": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her yıl"
+          }
+        }
+      }
+    },
+    "Everything stays on this Mac. Kalan has no account, no cloud sync and makes no network requests.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her şey bu Mac’te kalır. Kalan’ın hesabı ve bulut senkronizasyonu yoktur, hiçbir ağ isteği de yapmaz."
+          }
+        }
+      }
+    },
+    "Exam": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sınav"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genel"
+          }
+        }
+      }
+    },
+    "Gradient": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Degrade"
+          }
+        }
+      }
+    },
+    "HRS : MIN : SEC": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SA : DK : SN"
+          }
+        }
+      }
+    },
+    "Icon": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İkon"
+          }
+        }
+      }
+    },
+    "Image": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görsel"
+          }
+        }
+      }
+    },
+    "It's time! 🎉": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamanı geldi! 🎉"
+          }
+        }
+      }
+    },
+    "Keep counting up": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İleri saymaya devam et"
+          }
+        }
+      }
+    },
+    "Large": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Büyük"
+          }
+        }
+      }
+    },
+    "Launch": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lansman"
+          }
+        }
+      }
+    },
+    "Library": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kütüphane"
+          }
+        }
+      }
+    },
+    "Medium": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta"
+          }
+        }
+      }
+    },
+    "Minimal": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimal"
+          }
+        }
+      }
+    },
+    "Monthly": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her ay"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İsim"
+          }
+        }
+      }
+    },
+    "Name your countdown": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri sayımınıza bir ad verin"
+          }
+        }
+      }
+    },
+    "Never": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asla"
+          }
+        }
+      }
+    },
+    "New Countdown": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Geri Sayım"
+          }
+        }
+      }
+    },
+    "New Countdown…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Geri Sayım…"
+          }
+        }
+      }
+    },
+    "New Year": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yılbaşı"
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonraki"
+          }
+        }
+      }
+    },
+    "No Countdowns Yet": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz Geri Sayım Yok"
+          }
+        }
+      }
+    },
+    "No Icon": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İkon Yok"
+          }
+        }
+      }
+    },
+    "No upcoming countdowns": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yaklaşan geri sayım yok"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yok"
+          }
+        }
+      }
+    },
+    "Not asked yet": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz sorulmadı"
+          }
+        }
+      }
+    },
+    "Nothing Here": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Burada Bir Şey Yok"
+          }
+        }
+      }
+    },
+    "Notifications": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildirimler"
+          }
+        }
+      }
+    },
+    "One time": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tek seferlik"
+          }
+        }
+      }
+    },
+    "Open Kalan": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalan’ı Aç"
+          }
+        }
+      }
+    },
+    "Open Notification Settings…": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildirim Ayarlarını Aç…"
+          }
+        }
+      }
+    },
+    "Open at login": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişte aç"
+          }
+        }
+      }
+    },
+    "Optional notes": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İsteğe bağlı notlar"
+          }
+        }
+      }
+    },
+    "Or drop an image here": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya da bir görseli buraya bırakın"
+          }
+        }
+      }
+    },
+    "Pack light, bring sunscreen.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hafif paketle, güneş kremini unutma."
+          }
+        }
+      }
+    },
+    "Pick which countdown this widget shows.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu widget’ın hangi geri sayımı göstereceğini seçin."
+          }
+        }
+      }
+    },
+    "Poster": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poster"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizlilik"
+          }
+        }
+      }
+    },
+    "Put a countdown on your desktop": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masaüstünüze bir geri sayım koyun"
+          }
+        }
+      }
+    },
+    "Quit": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çık"
+          }
+        }
+      }
+    },
+    "Repeat": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekrar"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sıfırla"
+          }
+        }
+      }
+    },
+    "Right-click the desktop, choose “Edit Widgets…”, search for Countdown and drag one out. Right-click a placed widget → “Edit” to pick which countdown it shows.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masaüstüne sağ tıklayıp “Widget’ları Düzenle…” seçin, Geri Sayım’ı arayıp bir widget’ı sürükleyin. Yerleştirdiğiniz widget’a sağ tıklayıp “Düzenle” ile hangi geri sayımı göstereceğini seçin."
+          }
+        }
+      }
+    },
+    "Ring": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Halka"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
+          }
+        }
+      }
+    },
+    "Search symbols": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sembol ara"
+          }
+        }
+      }
+    },
+    "Seconds are drawn by macOS itself, so the widget barely uses any battery.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saniyeleri macOS kendisi çizer, bu yüzden widget neredeyse hiç pil harcamaz."
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar"
+          }
+        }
+      }
+    },
+    "Show as completed": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamamlandı olarak göster"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finder’da Göster"
+          }
+        }
+      }
+    },
+    "Show in menu bar": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menü çubuğunda göster"
+          }
+        }
+      }
+    },
+    "Since": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlangıç"
+          }
+        }
+      }
+    },
+    "Since %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ tarihinden beri"
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boyut"
+          }
+        }
+      }
+    },
+    "Small": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Küçük"
+          }
+        }
+      }
+    },
+    "Smoke-free": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sigarasız"
+          }
+        }
+      }
+    },
+    "Source Code": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak Kodu"
+          }
+        }
+      }
+    },
+    "Start from a template or a blank countdown.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir şablonla ya da boş bir geri sayımla başlayın."
+          }
+        }
+      }
+    },
+    "Start from scratch": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sıfırdan başla"
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durum"
+          }
+        }
+      }
+    },
+    "Style": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stil"
+          }
+        }
+      }
+    },
+    "Summer Vacation": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yaz Tatili"
+          }
+        }
+      }
+    },
+    "Symbols": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semboller"
+          }
+        }
+      }
+    },
+    "Target": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hedef"
+          }
+        }
+      }
+    },
+    "This can’t be undone.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu işlem geri alınamaz."
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat"
+          }
+        }
+      }
+    },
+    "Together": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Birlikte"
+          }
+        }
+      }
+    },
+    "Turned off": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapalı"
+          }
+        }
+      }
+    },
+    "Type": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tür"
+          }
+        }
+      }
+    },
+    "Type any emoji": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herhangi bir emoji yazın"
+          }
+        }
+      }
+    },
+    "Unarchive": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arşivden Çıkar"
+          }
+        }
+      }
+    },
+    "Untitled": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adsız"
+          }
+        }
+      }
+    },
+    "Upcoming": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yaklaşanlar"
+          }
+        }
+      }
+    },
+    "Vacation": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tatil"
+          }
+        }
+      }
+    },
+    "Version %@ (%@)": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürüm %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "Weekly": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her hafta"
+          }
+        }
+      }
+    },
+    "When it ends": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bittiğinde"
+          }
+        }
+      }
+    },
+    "Yearly": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her yıl"
+          }
+        }
+      }
+    },
+    "Your next countdowns at a glance.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yaklaşan geri sayımlarınız tek bakışta."
+          }
+        }
+      }
+    },
+    "before": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "önce"
+          }
+        }
+      }
+    },
+    "day": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gün"
+          }
+        }
+      }
+    },
+    "day left": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gün kaldı"
+          }
+        }
+      }
+    },
+    "days": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gün"
+          }
+        }
+      }
+    },
+    "days left": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gün kaldı"
+          }
+        }
+      }
+    },
+    "e.g. Summer Vacation": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ör. Yaz Tatili"
+          }
+        }
+      }
+    },
+    "hours": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "saat"
+          }
+        }
+      }
+    },
+    "left today": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "kaldı"
+          }
+        }
+      }
+    },
+    "minutes": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dakika"
+          }
+        }
+      }
+    },
+    "or drop one on the thumbnail": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ya da küçük resmin üzerine bırakın"
+          }
+        }
+      }
+    },
+    "weeks": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hafta"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
