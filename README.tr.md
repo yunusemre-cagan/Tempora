@@ -58,6 +58,10 @@ Widget eklemek için: masaüstüne sağ tıklayın → **Widget'ları Düzenle�
 | `TemporaWidget/` | WidgetKit eklentisi (seçilebilir geri sayım widget'ı + yaklaşanlar listesi) |
 | `Config/` | Entitlement dosyaları ve widget `Info.plist` |
 
+## Gizlilik
+
+Tempora hiçbir şey toplamaz ve hiçbir sunucuyla konuşmaz. Hesap, analitik, çökme raporu ya da bulut senkronizasyonu yoktur; oluşturduğunuz her şey Mac'inizdeki yerel bir veritabanında kalır. Hatırlatıcılar yerel bildirimlerdir.
+
 ## DMG hazırlama
 
 ```bash

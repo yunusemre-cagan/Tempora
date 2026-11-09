@@ -58,6 +58,10 @@ To add a widget: right-click the desktop → **Edit Widgets…** → search for 
 | `TemporaWidget/` | The WidgetKit extension (configurable countdown widget + upcoming list) |
 | `Config/` | Entitlements and the widget `Info.plist` |
 
+## Privacy
+
+Tempora collects nothing and talks to no server. There is no account, analytics, crash reporting or cloud sync; everything you create stays in a local database on your Mac. Reminders are local notifications.
+
 ## Packaging a DMG
 
 ```bash

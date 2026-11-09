@@ -1,7 +1,8 @@
 #!/bin/bash
 # Builds a Release version of Tempora and packages it into a drag-to-install DMG.
 #
-#   scripts/make-dmg.sh                      # signs with whatever identity Xcode picks (Apple Development)
+#   scripts/make-dmg.sh                      # uses a Developer ID certificate (and the "tempora-notary" profile) if installed,
+#                                            # otherwise signs with whatever identity Xcode picks (Apple Development)
 #   SIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" scripts/make-dmg.sh
 #   SIGN_IDENTITY="Developer ID Application: …" NOTARY_PROFILE=tempora-notary scripts/make-dmg.sh
 #
@@ -18,6 +19,12 @@ APP_NAME="Tempora"
 BUILD_DIR="build-release"
 DIST_DIR="dist"
 STAGING="$BUILD_DIR/dmg-staging"
+
+# Pick a Developer ID Application certificate automatically when one is installed.
+if [[ -z "${SIGN_IDENTITY:-}" ]]; then
+  SIGN_IDENTITY=$(security find-identity -v -p codesigning | grep -m1 'Developer ID Application' | sed -E 's/.*"(.*)".*/\1/' || true)
+  [[ -n "$SIGN_IDENTITY" ]] && echo "▸ Using $SIGN_IDENTITY"
+fi
 
 echo "▸ Building $APP_NAME (Release)…"
 SIGN_ARGS=()
@@ -76,6 +83,9 @@ hdiutil detach -quiet "$MOUNT_POINT"
 hdiutil convert -quiet "$BUILD_DIR/rw.dmg" -format UDZO -imagekey zlib-level=9 -o "$DMG"
 [[ -n "${SIGN_IDENTITY:-}" ]] && codesign --force --timestamp --sign "$SIGN_IDENTITY" "$DMG"
 
+if [[ -z "${NOTARY_PROFILE:-}" && -n "${SIGN_IDENTITY:-}" ]] && xcrun notarytool history --keychain-profile tempora-notary >/dev/null 2>&1; then
+  NOTARY_PROFILE=tempora-notary
+fi
 if [[ -n "${NOTARY_PROFILE:-}" ]]; then
   echo "▸ Notarizing (this takes a few minutes)…"
   xcrun notarytool submit "$DMG" --keychain-profile "$NOTARY_PROFILE" --wait
