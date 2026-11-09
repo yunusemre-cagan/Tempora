@@ -60,7 +60,7 @@ Widget eklemek için: masaüstüne sağ tıklayın → **Widget'ları Düzenle�
 
 ## Gizlilik
 
-Tempora hiçbir şey toplamaz ve hiçbir sunucuyla konuşmaz. Hesap, analitik, çökme raporu ya da bulut senkronizasyonu yoktur; oluşturduğunuz her şey Mac'inizdeki yerel bir veritabanında kalır. Hatırlatıcılar yerel bildirimlerdir.
+Tempora hiçbir şey toplamaz ve hiçbir sunucuyla konuşmaz. Hesap, analitik, çökme raporu ya da bulut senkronizasyonu yoktur; oluşturduğunuz her şey Mac'inizdeki yerel bir veritabanında kalır. Hatırlatıcılar yerel bildirimlerdir. Ayrıntılar için [Gizlilik Politikası ve Aydınlatma Metni](PRIVACY.md).
 
 ## DMG hazırlama
 

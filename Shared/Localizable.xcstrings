@@ -1125,6 +1125,16 @@
         }
       }
     },
+    "Privacy Policy & Disclosure": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizlilik Politikası ve Aydınlatma Metni"
+          }
+        }
+      }
+    },
     "Put a countdown on your desktop": {
       "localizations": {
         "tr": {

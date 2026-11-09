@@ -72,6 +72,11 @@ struct SettingsView: View {
             Section("Privacy") {
                 Label("Everything stays on this Mac. Tempora has no account, no cloud sync and makes no network requests.", systemImage: "lock.shield")
                     .fixedSize(horizontal: false, vertical: true)
+                if let url = URL(string: "https://github.com/yunusemre-cagan/Tempora/blob/main/PRIVACY.md") {
+                    Link(destination: url) {
+                        Label("Privacy Policy & Disclosure", systemImage: "hand.raised")
+                    }
+                }
                 LabeledContent("Database") {
                     Button("Show in Finder") {
                         NSWorkspace.shared.activateFileViewerSelecting([AppGroup.storeURL])

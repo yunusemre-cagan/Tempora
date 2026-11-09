@@ -60,7 +60,7 @@ To add a widget: right-click the desktop → **Edit Widgets…** → search for 
 
 ## Privacy
 
-Tempora collects nothing and talks to no server. There is no account, analytics, crash reporting or cloud sync; everything you create stays in a local database on your Mac. Reminders are local notifications.
+Tempora collects nothing and talks to no server. There is no account, analytics, crash reporting or cloud sync; everything you create stays in a local database on your Mac. Reminders are local notifications. Read the full [Privacy Policy & Disclosure](PRIVACY.md).
 
 ## Packaging a DMG
 
