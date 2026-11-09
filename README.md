@@ -58,6 +58,22 @@ To add a widget: right-click the desktop → **Edit Widgets…** → search for 
 | `TemporaWidget/` | The WidgetKit extension (configurable countdown widget + upcoming list) |
 | `Config/` | Entitlements and the widget `Info.plist` |
 
+## Packaging a DMG
+
+```bash
+scripts/make-dmg.sh
+```
+
+builds a universal (Apple Silicon + Intel) Release app and wraps it into `dist/Tempora-<version>.dmg` with a drag-to-Applications window.
+
+Without a paid Apple Developer ID the DMG is signed with a development certificate and is **not notarized**, so macOS shows an "Apple could not verify…" warning on other Macs; users approve the app once in *System Settings → Privacy & Security → Open Anyway*. For a warning-free download, sign and notarize:
+
+```bash
+SIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" NOTARY_PROFILE=tempora-notary scripts/make-dmg.sh
+```
+
+(see the header of [`scripts/make-dmg.sh`](scripts/make-dmg.sh) for the one-time `notarytool` setup).
+
 ## License
 
 [MIT](LICENSE)

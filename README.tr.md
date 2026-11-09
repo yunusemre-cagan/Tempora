@@ -58,6 +58,22 @@ Widget eklemek için: masaüstüne sağ tıklayın → **Widget'ları Düzenle�
 | `TemporaWidget/` | WidgetKit eklentisi (seçilebilir geri sayım widget'ı + yaklaşanlar listesi) |
 | `Config/` | Entitlement dosyaları ve widget `Info.plist` |
 
+## DMG hazırlama
+
+```bash
+scripts/make-dmg.sh
+```
+
+evrensel (Apple Silicon + Intel) bir Release uygulaması derler ve `dist/Tempora-<sürüm>.dmg` içine, "Uygulamalar'a sürükle" penceresiyle paketler.
+
+Ücretli Apple Developer ID olmadan DMG geliştirme sertifikasıyla imzalanır ve **noter onayından geçmez**. Bu yüzden diğer Mac'lerde "Apple doğrulayamadı…" uyarısı çıkar. Kullanıcı uygulamayı *Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç* ile bir kez onaylar. Uyarısız indirme için imzalayıp noter onayına gönderin:
+
+```bash
+SIGN_IDENTITY="Developer ID Application: Adınız (TEAMID)" NOTARY_PROFILE=tempora-notary scripts/make-dmg.sh
+```
+
+(bir defalık `notarytool` kurulumu için [`scripts/make-dmg.sh`](scripts/make-dmg.sh) dosyasının başına bakın).
+
 ## Lisans
 
 [MIT](LICENSE)
