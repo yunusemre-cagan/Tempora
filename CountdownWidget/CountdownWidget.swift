@@ -41,7 +41,7 @@ struct CountdownWidget: Widget {
         AppIntentConfiguration(kind: "CountdownWidget", intent: SelectCountdownIntent.self, provider: CountdownProvider()) { entry in
             CountdownWidgetView(entry: entry)
         }
-        .configurationDisplayName("Kalan")
+        .configurationDisplayName("Tempora")
         .description("A single countdown, down to the second.")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge])
     }

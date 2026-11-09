@@ -18,13 +18,13 @@ struct SettingsView: View {
                         .resizable()
                         .frame(width: 56, height: 56)
                     VStack(alignment: .leading, spacing: 2) {
-                        Text(verbatim: "Kalan").font(.title3.weight(.semibold))
+                        Text(verbatim: "Tempora").font(.title3.weight(.semibold))
                         Text("Version \(Self.version) (\(Self.build))")
                             .font(.callout)
                             .foregroundStyle(.secondary)
                     }
                     Spacer()
-                    if let url = URL(string: "https://github.com/yunusemre-cagan/Kalan") {
+                    if let url = URL(string: "https://github.com/yunusemre-cagan/Tempora") {
                         Link(destination: url) { Label("Source Code", systemImage: "chevron.left.forwardslash.chevron.right") }
                             .font(.callout)
                     }
@@ -70,7 +70,7 @@ struct SettingsView: View {
             }
 
             Section("Privacy") {
-                Label("Everything stays on this Mac. Kalan has no account, no cloud sync and makes no network requests.", systemImage: "lock.shield")
+                Label("Everything stays on this Mac. Tempora has no account, no cloud sync and makes no network requests.", systemImage: "lock.shield")
                     .fixedSize(horizontal: false, vertical: true)
                 LabeledContent("Database") {
                     Button("Show in Finder") {

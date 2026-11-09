@@ -10,7 +10,7 @@ struct MenuBarView: View {
         let items = Array(countdowns.map(\.item).filter { !$0.isArchived && !$0.isFinished }.sortedForDisplay().prefix(5))
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Text(verbatim: "Kalan").font(.headline)
+                Text(verbatim: "Tempora").font(.headline)
                 Spacer()
                 Button {
                     open()
@@ -42,7 +42,7 @@ struct MenuBarView: View {
 
             Divider()
             HStack {
-                Button("Open Kalan") { open() }
+                Button("Open Tempora") { open() }
                 Spacer()
                 SettingsLink { Image(systemName: "gearshape") }
                     .help("Settings")

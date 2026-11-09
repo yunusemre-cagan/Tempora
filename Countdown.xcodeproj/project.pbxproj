@@ -35,7 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A10000000000000000000101 /* Kalan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000101 /* Tempora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000102 /* CountdownWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CountdownWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,7 +76,7 @@
 		A10000000000000000000802 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000101 /* Kalan.app */,
+				A10000000000000000000101 /* Tempora.app */,
 				A10000000000000000000102 /* CountdownWidgetExtension.appex */,
 			);
 			name = Products;
@@ -107,7 +107,7 @@
 			packageProductDependencies = (
 			);
 			productName = Countdown;
-			productReference = A10000000000000000000101 /* Kalan.app */;
+			productReference = A10000000000000000000101 /* Tempora.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A10000000000000000000602 /* CountdownWidgetExtension */ = {
@@ -279,7 +279,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Kalan;
+				INFOPLIST_KEY_CFBundleDisplayName = Tempora;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,7 +288,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Countdown;
-				PRODUCT_NAME = Kalan;
+				PRODUCT_NAME = Tempora;
 				REGISTER_APP_GROUPS = YES;
 			};
 			name = Debug;
@@ -304,7 +304,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Kalan;
+				INFOPLIST_KEY_CFBundleDisplayName = Tempora;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +313,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Countdown;
-				PRODUCT_NAME = Kalan;
+				PRODUCT_NAME = Tempora;
 				REGISTER_APP_GROUPS = YES;
 			};
 			name = Release;
@@ -327,7 +327,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Config/CountdownWidget-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Kalan;
+				INFOPLIST_KEY_CFBundleDisplayName = Tempora;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,7 +351,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Config/CountdownWidget-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Kalan;
+				INFOPLIST_KEY_CFBundleDisplayName = Tempora;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

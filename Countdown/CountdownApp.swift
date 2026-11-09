@@ -8,7 +8,7 @@ struct CountdownApp: App {
     @State private var model = AppModel.shared
 
     var body: some Scene {
-        Window("Kalan", id: "main") {
+        Window("Tempora", id: "main") {
             ContentView()
                 .environment(model)
         }

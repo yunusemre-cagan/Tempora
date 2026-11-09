@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/icon.png" width="128" alt="Kalan app icon">
+  <img src="docs/icon.png" width="128" alt="Tempora app icon">
 </p>
 
-<h1 align="center">Kalan</h1>
+<h1 align="center">Tempora</h1>
 
 <p align="center">
   A beautiful, <b>fully local</b> countdown app for macOS with desktop widgets that tick down to the second — without draining your battery.
@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="docs/widgets.png" width="720" alt="Kalan widget styles and sizes">
+  <img src="docs/widgets.png" width="720" alt="Tempora widget styles and sizes">
 </p>
 
-*Kalan* is Turkish for "what's left". Create a countdown for anything — a vacation, a birthday, a launch — and pin it to your desktop as a widget.
+*Tempora* is Latin for "times". Create a countdown for anything — a vacation, a birthday, a launch — and pin it to your desktop as a widget.
 
 ## Features
 
@@ -35,8 +35,8 @@
 ## Build & run
 
 ```bash
-git clone https://github.com/yunusemre-cagan/Kalan.git
-cd Kalan
+git clone https://github.com/yunusemre-cagan/Tempora.git
+cd Tempora
 open Countdown.xcodeproj
 ```
 
@@ -47,7 +47,7 @@ The app and the widget share a database through an **App Group**, so the project
 3. Update the app group identifier in [`Shared/Store/AppGroup.swift`](Shared/Store/AppGroup.swift) to `<YOUR_TEAM_ID>.<your bundle id>` (it must match `$(TeamIdentifierPrefix)` + the bundle id in the `.entitlements` files).
 4. Run the **Countdown** scheme.
 
-To add a widget: right-click the desktop → **Edit Widgets…** → search for *Kalan* and drag one out. Right-click a placed widget → **Edit "Kalan"** to choose its countdown.
+To add a widget: right-click the desktop → **Edit Widgets…** → search for *Tempora* and drag one out. Right-click a placed widget → **Edit "Tempora"** to choose its countdown.
 
 ## Project layout
 

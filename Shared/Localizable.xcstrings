@@ -725,12 +725,12 @@
         }
       }
     },
-    "Everything stays on this Mac. Kalan has no account, no cloud sync and makes no network requests.": {
+    "Everything stays on this Mac. Tempora has no account, no cloud sync and makes no network requests.": {
       "localizations": {
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Her şey bu Mac’te kalır. Kalan’ın hesabı ve bulut senkronizasyonu yoktur, hiçbir ağ isteği de yapmaz."
+            "value": "Her şey bu Mac’te kalır. Tempora’nın hesabı ve bulut senkronizasyonu yoktur, hiçbir ağ isteği de yapmaz."
           }
         }
       }
@@ -1025,22 +1025,22 @@
         }
       }
     },
-    "Open Kalan": {
-      "localizations": {
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kalan’ı Aç"
-          }
-        }
-      }
-    },
     "Open Notification Settings…": {
       "localizations": {
         "tr": {
           "stringUnit": {
             "state": "translated",
             "value": "Bildirim Ayarlarını Aç…"
+          }
+        }
+      }
+    },
+    "Open Tempora": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempora’yı Aç"
           }
         }
       }

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/icon.png" width="128" alt="Kalan uygulama simgesi">
+  <img src="docs/icon.png" width="128" alt="Tempora uygulama simgesi">
 </p>
 
-<h1 align="center">Kalan</h1>
+<h1 align="center">Tempora</h1>
 
 <p align="center">
   macOS için <b>tamamen local</b>, şık bir geri sayım uygulaması. Masaüstü widget'ları saniyesine kadar akar, pili yormaz.
@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="docs/widgets.png" width="720" alt="Kalan widget stilleri ve boyutları">
+  <img src="docs/widgets.png" width="720" alt="Tempora widget stilleri ve boyutları">
 </p>
 
-*Kalan*, "geriye ne kaldı" demek. Tatil, doğum günü, lansman… her şey için bir geri sayım oluşturun ve masaüstünüze widget olarak sabitleyin.
+*Tempora*, Latince'de "zamanlar" demek. Tatil, doğum günü, lansman… her şey için bir geri sayım oluşturun ve masaüstünüze widget olarak sabitleyin.
 
 ## Özellikler
 
@@ -35,8 +35,8 @@
 ## Derleme ve çalıştırma
 
 ```bash
-git clone https://github.com/yunusemre-cagan/Kalan.git
-cd Kalan
+git clone https://github.com/yunusemre-cagan/Tempora.git
+cd Tempora
 open Countdown.xcodeproj
 ```
 
@@ -47,7 +47,7 @@ Uygulama ve widget veritabanını bir **App Group** üzerinden paylaşır, bu y�
 3. [`Shared/Store/AppGroup.swift`](Shared/Store/AppGroup.swift) içindeki App Group kimliğini `<TEAM_ID>.<bundle id>` olacak şekilde güncelleyin (`.entitlements` dosyalarındaki `$(TeamIdentifierPrefix)` + bundle kimliğiyle aynı olmalı).
 4. **Countdown** şemasını çalıştırın.
 
-Widget eklemek için: masaüstüne sağ tıklayın → **Widget'ları Düzenle…** → *Kalan*'ı arayıp sürükleyin. Yerleştirdiğiniz widget'a sağ tıklayıp **"Kalan" Düzenle** ile geri sayımı seçin.
+Widget eklemek için: masaüstüne sağ tıklayın → **Widget'ları Düzenle…** → *Tempora*'ı arayıp sürükleyin. Yerleştirdiğiniz widget'a sağ tıklayıp **"Tempora" Düzenle** ile geri sayımı seçin.
 
 ## Proje yapısı
 
