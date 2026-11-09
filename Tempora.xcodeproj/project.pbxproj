@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000000000000000000301 /* CountdownWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000102 /* CountdownWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000000000000000000301 /* TemporaWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000102 /* TemporaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -16,7 +16,7 @@
 			containerPortal = A10000000000000000000001 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A10000000000000000000602;
-			remoteInfo = CountdownWidgetExtension;
+			remoteInfo = TemporaWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A10000000000000000000301 /* CountdownWidgetExtension.appex in Embed Foundation Extensions */,
+				A10000000000000000000301 /* TemporaWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,12 +36,12 @@
 
 /* Begin PBXFileReference section */
 		A10000000000000000000101 /* Tempora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000102 /* CountdownWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CountdownWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000102 /* TemporaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TemporaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A10000000000000000000201 /* Countdown */ = {isa = PBXFileSystemSynchronizedRootGroup; path = Countdown; sourceTree = "<group>"; };
-		A10000000000000000000202 /* CountdownWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; path = CountdownWidget; sourceTree = "<group>"; };
+		A10000000000000000000201 /* Tempora */ = {isa = PBXFileSystemSynchronizedRootGroup; path = Tempora; sourceTree = "<group>"; };
+		A10000000000000000000202 /* TemporaWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; path = TemporaWidget; sourceTree = "<group>"; };
 		A10000000000000000000203 /* Shared */ = {isa = PBXFileSystemSynchronizedRootGroup; path = Shared; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -66,8 +66,8 @@
 		A10000000000000000000801 = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000201 /* Countdown */,
-				A10000000000000000000202 /* CountdownWidget */,
+				A10000000000000000000201 /* Tempora */,
+				A10000000000000000000202 /* TemporaWidget */,
 				A10000000000000000000203 /* Shared */,
 				A10000000000000000000802 /* Products */,
 			);
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				A10000000000000000000101 /* Tempora.app */,
-				A10000000000000000000102 /* CountdownWidgetExtension.appex */,
+				A10000000000000000000102 /* TemporaWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000000000000000000601 /* Countdown */ = {
+		A10000000000000000000601 /* Tempora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10000000000000000000B02 /* Build configuration list for PBXNativeTarget "Countdown" */;
+			buildConfigurationList = A10000000000000000000B02 /* Build configuration list for PBXNativeTarget "Tempora" */;
 			buildPhases = (
 				A10000000000000000000901 /* Sources */,
 				A10000000000000000000701 /* Frameworks */,
@@ -100,19 +100,19 @@
 				A10000000000000000000C01 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A10000000000000000000201 /* Countdown */,
+				A10000000000000000000201 /* Tempora */,
 				A10000000000000000000203 /* Shared */,
 			);
-			name = Countdown;
+			name = Tempora;
 			packageProductDependencies = (
 			);
-			productName = Countdown;
+			productName = Tempora;
 			productReference = A10000000000000000000101 /* Tempora.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A10000000000000000000602 /* CountdownWidgetExtension */ = {
+		A10000000000000000000602 /* TemporaWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10000000000000000000B03 /* Build configuration list for PBXNativeTarget "CountdownWidgetExtension" */;
+			buildConfigurationList = A10000000000000000000B03 /* Build configuration list for PBXNativeTarget "TemporaWidgetExtension" */;
 			buildPhases = (
 				A10000000000000000000902 /* Sources */,
 				A10000000000000000000702 /* Frameworks */,
@@ -123,14 +123,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A10000000000000000000202 /* CountdownWidget */,
+				A10000000000000000000202 /* TemporaWidget */,
 				A10000000000000000000203 /* Shared */,
 			);
-			name = CountdownWidgetExtension;
+			name = TemporaWidgetExtension;
 			packageProductDependencies = (
 			);
-			productName = CountdownWidgetExtension;
-			productReference = A10000000000000000000102 /* CountdownWidgetExtension.appex */;
+			productName = TemporaWidgetExtension;
+			productReference = A10000000000000000000102 /* TemporaWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A10000000000000000000B01 /* Build configuration list for PBXProject "Countdown" */;
+			buildConfigurationList = A10000000000000000000B01 /* Build configuration list for PBXProject "Tempora" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000000000000000000601 /* Countdown */,
-				A10000000000000000000602 /* CountdownWidgetExtension */,
+				A10000000000000000000601 /* Tempora */,
+				A10000000000000000000602 /* TemporaWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -209,7 +209,7 @@
 /* Begin PBXTargetDependency section */
 		A10000000000000000000C01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A10000000000000000000602 /* CountdownWidgetExtension */;
+			target = A10000000000000000000602 /* TemporaWidgetExtension */;
 			targetProxy = A10000000000000000000401 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -273,7 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Config/Countdown.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/Tempora.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -287,7 +287,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Countdown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Tempora;
 				PRODUCT_NAME = Tempora;
 				REGISTER_APP_GROUPS = YES;
 			};
@@ -298,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Config/Countdown.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/Tempora.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -312,7 +312,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Countdown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Tempora;
 				PRODUCT_NAME = Tempora;
 				REGISTER_APP_GROUPS = YES;
 			};
@@ -321,12 +321,12 @@
 		A10000000000000000000F01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Config/CountdownWidget.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/TemporaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Config/CountdownWidget-Info.plist";
+				INFOPLIST_FILE = "Config/TemporaWidget-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Tempora;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +335,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Countdown.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Tempora.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SKIP_INSTALL = YES;
@@ -345,12 +345,12 @@
 		A10000000000000000000F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Config/CountdownWidget.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/TemporaWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Config/CountdownWidget-Info.plist";
+				INFOPLIST_FILE = "Config/TemporaWidget-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Tempora;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,7 +359,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Countdown.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusemrecagan.Tempora.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SKIP_INSTALL = YES;
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A10000000000000000000B01 /* Build configuration list for PBXProject "Countdown" */ = {
+		A10000000000000000000B01 /* Build configuration list for PBXProject "Tempora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10000000000000000000D01 /* Debug */,
@@ -378,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10000000000000000000B02 /* Build configuration list for PBXNativeTarget "Countdown" */ = {
+		A10000000000000000000B02 /* Build configuration list for PBXNativeTarget "Tempora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10000000000000000000E01 /* Debug */,
@@ -387,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10000000000000000000B03 /* Build configuration list for PBXNativeTarget "CountdownWidgetExtension" */ = {
+		A10000000000000000000B03 /* Build configuration list for PBXNativeTarget "TemporaWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10000000000000000000F01 /* Debug */,

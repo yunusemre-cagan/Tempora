@@ -1,29 +1,29 @@
 import SwiftUI
 import WidgetKit
 
-struct CountdownEntry: TimelineEntry {
+struct TemporaEntry: TimelineEntry {
     let date: Date
     let item: CountdownItem?
 }
 
 /// Timeline = one entry per day boundary. Seconds are animated by the system
 /// via `Text(timerInterval:)`, so the extension only runs a few times per day.
-struct CountdownProvider: AppIntentTimelineProvider {
-    func placeholder(in context: Context) -> CountdownEntry {
-        CountdownEntry(date: .now, item: .sample)
+struct TemporaProvider: AppIntentTimelineProvider {
+    func placeholder(in context: Context) -> TemporaEntry {
+        TemporaEntry(date: .now, item: .sample)
     }
 
-    func snapshot(for configuration: SelectCountdownIntent, in context: Context) async -> CountdownEntry {
-        CountdownEntry(date: .now, item: resolve(configuration) ?? .sample)
+    func snapshot(for configuration: SelectCountdownIntent, in context: Context) async -> TemporaEntry {
+        TemporaEntry(date: .now, item: resolve(configuration) ?? .sample)
     }
 
-    func timeline(for configuration: SelectCountdownIntent, in context: Context) async -> Timeline<CountdownEntry> {
+    func timeline(for configuration: SelectCountdownIntent, in context: Context) async -> Timeline<TemporaEntry> {
         let now = Date()
         guard let item = resolve(configuration) else {
-            return Timeline(entries: [CountdownEntry(date: now, item: nil)], policy: .never)
+            return Timeline(entries: [TemporaEntry(date: now, item: nil)], policy: .never)
         }
         let dates = [now] + item.boundaries(after: now)
-        let entries = dates.map { CountdownEntry(date: $0, item: item) }
+        let entries = dates.map { TemporaEntry(date: $0, item: item) }
         let policy: TimelineReloadPolicy = dates.count > 1 ? .atEnd : .never
         return Timeline(entries: entries, policy: policy)
     }
@@ -36,10 +36,10 @@ struct CountdownProvider: AppIntentTimelineProvider {
     }
 }
 
-struct CountdownWidget: Widget {
+struct TemporaWidget: Widget {
     var body: some WidgetConfiguration {
-        AppIntentConfiguration(kind: "CountdownWidget", intent: SelectCountdownIntent.self, provider: CountdownProvider()) { entry in
-            CountdownWidgetView(entry: entry)
+        AppIntentConfiguration(kind: "TemporaWidget", intent: SelectCountdownIntent.self, provider: TemporaProvider()) { entry in
+            TemporaWidgetView(entry: entry)
         }
         .configurationDisplayName("Tempora")
         .description("A single countdown, down to the second.")
@@ -47,15 +47,15 @@ struct CountdownWidget: Widget {
     }
 }
 
-struct CountdownWidgetView: View {
-    let entry: CountdownEntry
+struct TemporaWidgetView: View {
+    let entry: TemporaEntry
     @Environment(\.widgetFamily) private var family
 
     var body: some View {
         if let item = entry.item {
             CountdownFaceView(item: item, size: FaceSize(family), date: entry.date)
                 .containerBackground(for: .widget) { CountdownBackgroundView(item: item) }
-                .widgetURL(URL(string: "countdown://open/\(item.id.uuidString)"))
+                .widgetURL(URL(string: "tempora://open/\(item.id.uuidString)"))
         } else {
             EmptyWidgetView()
                 .containerBackground(for: .widget) { GradientPreset.default.gradient }

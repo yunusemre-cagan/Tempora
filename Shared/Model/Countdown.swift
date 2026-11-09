@@ -14,6 +14,7 @@ final class Countdown {
     var afterEndRaw: String = EndBehavior.complete.rawValue
     var styleRaw: String = WidgetStyle.poster.rawValue
     var accentHex: String = ""
+    var accentOnText: Bool = false
     var iconData: Data?
     var backgroundData: Data?
     var recurrenceData: Data?
@@ -37,6 +38,7 @@ final class Countdown {
         afterEndRaw = item.afterEnd.rawValue
         styleRaw = item.style.rawValue
         accentHex = item.accentHex
+        accentOnText = item.accentOnText
         iconData = JSON.encode(item.icon)
         backgroundData = JSON.encode(item.background)
         recurrenceData = item.recurrence.flatMap(JSON.encode)
@@ -56,6 +58,7 @@ final class Countdown {
             afterEnd: EndBehavior(rawValue: afterEndRaw) ?? .complete,
             style: WidgetStyle(rawValue: styleRaw) ?? .poster,
             accentHex: accentHex,
+            accentOnText: accentOnText,
             icon: iconData.flatMap { JSON.decode(IconSpec.self, from: $0) } ?? .symbol("hourglass"),
             background: backgroundData.flatMap { JSON.decode(BackgroundSpec.self, from: $0) } ?? .gradient(GradientPreset.default.id),
             recurrence: recurrenceData.flatMap { JSON.decode(Recurrence.self, from: $0) },

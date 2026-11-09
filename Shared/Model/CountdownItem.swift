@@ -37,6 +37,8 @@ struct CountdownItem: Identifiable, Hashable, Sendable {
     var style: WidgetStyle = .poster
     /// Empty = automatic (text color follows the background).
     var accentHex: String = ""
+    /// Off: the accent only colors bars and rings. On: it also tints all text.
+    var accentOnText: Bool = false
     var icon: IconSpec = .symbol("hourglass")
     var background: BackgroundSpec = .gradient(GradientPreset.default.id)
     var recurrence: Recurrence?

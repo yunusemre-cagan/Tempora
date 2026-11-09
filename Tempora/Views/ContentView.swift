@@ -43,7 +43,7 @@ struct ContentView: View {
             EditorView(request: request)
         }
         .onOpenURL { url in
-            guard url.scheme == "countdown", let id = UUID(uuidString: url.lastPathComponent) else { return }
+            guard url.scheme == "tempora", let id = UUID(uuidString: url.lastPathComponent) else { return }
             model.reveal(id)
         }
     }

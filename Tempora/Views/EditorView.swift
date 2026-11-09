@@ -119,10 +119,12 @@ struct EditorView: View {
                             set: { item.accentHex = $0.hexString }
                         ), supportsOpacity: false)
                         .labelsHidden()
-                        Button("Reset") { item.accentHex = "" }
+                        Button("Reset") { item.accentHex = ""; item.accentOnText = false }
                             .disabled(!item.hasCustomAccent)
                     }
                 }
+                Toggle("Apply to all text", isOn: $item.accentOnText)
+                    .disabled(!item.hasCustomAccent)
             }
 
             RecurrenceSection(recurrence: $item.recurrence, anchor: item.targetDate)

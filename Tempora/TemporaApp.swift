@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct CountdownApp: App {
+struct TemporaApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @AppStorage("showMenuBarExtra") private var showMenuBarExtra = true
     @State private var model = AppModel.shared

@@ -33,10 +33,11 @@ struct FacePalette {
 
     init(item: CountdownItem, renderingMode: WidgetRenderingMode) {
         isFullColor = renderingMode == .fullColor
-        // A custom accent tints all text; otherwise text follows the background's contrast.
-        let tint = item.hasCustomAccent ? Color(hex: item.accentHex) : item.background.foreground
-        foreground = isFullColor ? tint : .primary
-        accent = isFullColor ? tint : .primary
+        // The accent always colors bars and rings; it only tints text when the user turns that on.
+        let base = item.background.foreground
+        let custom: Color? = item.hasCustomAccent ? Color(hex: item.accentHex) : nil
+        foreground = isFullColor ? (item.accentOnText ? (custom ?? base) : base) : .primary
+        accent = isFullColor ? (custom ?? base) : .primary
     }
 }
 

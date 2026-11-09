@@ -70,7 +70,7 @@ struct UpcomingWidgetView: View {
                 Spacer()
             } else {
                 ForEach(items) { item in
-                    Link(destination: URL(string: "countdown://open/\(item.id.uuidString)")!) {
+                    Link(destination: URL(string: "tempora://open/\(item.id.uuidString)")!) {
                         UpcomingRow(item: item, date: entry.date, palette: palette, compact: family == .systemMedium)
                     }
                     if item.id != items.last?.id {

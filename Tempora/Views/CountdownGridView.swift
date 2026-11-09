@@ -117,7 +117,7 @@ private struct DesktopTip: View {
                 .foregroundStyle(.tint)
             VStack(alignment: .leading, spacing: 2) {
                 Text("Put a countdown on your desktop").font(.headline)
-                Text("Right-click the desktop, choose “Edit Widgets…”, search for Countdown and drag one out. Right-click a placed widget → “Edit” to pick which countdown it shows.")
+                Text("Right-click the desktop, choose “Edit Widgets…”, search for Tempora and drag one out. Right-click a placed widget → “Edit” to pick which countdown it shows.")
                     .font(.callout)
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)

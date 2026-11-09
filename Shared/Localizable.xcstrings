@@ -165,6 +165,16 @@
         }
       }
     },
+    "Apply to all text": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm metinlere uygula"
+          }
+        }
+      }
+    },
     "Archive": {
       "localizations": {
         "tr": {
@@ -1155,12 +1165,12 @@
         }
       }
     },
-    "Right-click the desktop, choose “Edit Widgets…”, search for Countdown and drag one out. Right-click a placed widget → “Edit” to pick which countdown it shows.": {
+    "Right-click the desktop, choose “Edit Widgets…”, search for Tempora and drag one out. Right-click a placed widget → “Edit” to pick which countdown it shows.": {
       "localizations": {
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Masaüstüne sağ tıklayıp “Widget’ları Düzenle…” seçin, Geri Sayım’ı arayıp bir widget’ı sürükleyin. Yerleştirdiğiniz widget’a sağ tıklayıp “Düzenle” ile hangi geri sayımı göstereceğini seçin."
+            "value": "Masaüstüne sağ tıklayıp “Widget’ları Düzenle…” seçin, Tempora’yı arayıp bir widget’ı sürükleyin. Yerleştirdiğiniz widget’a sağ tıklayıp “Düzenle” ile hangi geri sayımı göstereceğini seçin."
           }
         }
       }

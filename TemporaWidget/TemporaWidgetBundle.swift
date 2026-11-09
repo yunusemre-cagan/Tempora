@@ -2,9 +2,9 @@ import SwiftUI
 import WidgetKit
 
 @main
-struct CountdownWidgetBundle: WidgetBundle {
+struct TemporaWidgetBundle: WidgetBundle {
     var body: some Widget {
-        CountdownWidget()
+        TemporaWidget()
         UpcomingWidget()
     }
 }

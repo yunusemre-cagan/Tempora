@@ -6,7 +6,7 @@ enum SharedStore {
     static let container: ModelContainer = {
         let schema = Schema([Countdown.self])
         let configuration = ModelConfiguration(
-            "Countdown",
+            "Tempora",
             schema: schema,
             url: AppGroup.storeURL,
             allowsSave: true,
